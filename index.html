@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pecha Kucha Presenter</title>
+    <script type="text/javascript" nonce="843c8e9d05294b2ba0d13b3bf13" src="//injections.adguard.org?ts=1610354012059&amp;type=content-script&amp;dmn=127.0.0.1:8080&amp;app=firefox.exe&amp;css=1&amp;js=1&amp;gcss=1&amp;rel=1&amp;rji=1&amp;sbe=0&amp;stealth=1&amp;uag="></script>
+    <script type="text/javascript" nonce="843c8e9d05294b2ba0d13b3bf13" src="//injections.adguard.org?ts=1610354012059&amp;name=AdGuard%20Popup%20Blocker&amp;name=AdGuard%20Extra&amp;type=user-script"></script><link rel="stylesheet" href="resources/css/styles.css">
+</head>
+<body>
+<header>
+    <span class="title">Pecha Kucha Presenter</span>
+    <span class="settings">
+        <span class="button decrease-time">-</span>
+        <span id="time-per-slide" class="title">20s</span>
+        <span class="button increase-time">+</span>
+    </span>
+    <nav>
+        <span class="button add-image" id="add-image">Bild hinzufügen
+    <input type="file" accept=".jpg, .jpeg, .png, .gif, .bmp" multiple/></span>
+        <ul class="slides" id="slides">
+        </ul>
+    </nav>
+</header>
+<main>
+    <span class="preview">
+            <img src="" alt="Vorschau">
+        </span>
+    <span class="screen">
+        <span class="footer">
+            <span class="left-of-slide">
+                <span class="slide-start button">&#10235;</span>
+                <span class="slide-prev button">&#10229;</span>
+            </span>
+            <span class="center-slide">
+                <span class="button present">&#9654;</span>
+            </span>
+            <span class="right-of-slide">
+                <span class="slide-next button">&#10230;</span>
+                <span class="slide-end button">&#10236;</span>
+            </span>
+        </span>
+    </span>
+</main>
+<template id="slide">
+    <li draggable="true">
+        <img height="" width="" slide="" src="">
+        <span class="button delete-slide">Entfernen</span>
+    </li>
+</template>
+<script type="module" src="resources/js/app.js"></script>
+</body>
+
+
+</html>

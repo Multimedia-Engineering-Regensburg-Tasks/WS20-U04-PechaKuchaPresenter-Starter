@@ -1,0 +1,16 @@
+{
+  "name": "ws20-u04-pechakuchapresenter",
+  "version": "1.0.0",
+  "description": "Pecha Kucha Presenter is a simple Web application for both editing and viewing presentations in the Pecha Kucha style. See https://en.wikipedia.org/wiki/PechaKucha",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server . -o -c-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "eslint": "^7.16.0"
+  }
+}
